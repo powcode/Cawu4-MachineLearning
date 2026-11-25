@@ -1,0 +1,24 @@
+### Soal Latihan Mahasiswa: Visualisasi Data dengan Matplotlib
+
+Selesaikan dua soal latihan di bawah ini menggunakan dataset `data_BM` yang sudah di-load sebelumnya.
+
+---
+
+#### **Soal 1: Bar Chart (Rata-rata Penjualan Berdasarkan Tipe Lokasi Outlet)**
+Buatlah sebuah **Bar Chart** untuk menampilkan rata-rata penjualan (`Item_Outlet_Sales`) berdasarkan tipe lokasi outlet (`Outlet_Location_Type`).
+
+**Ketentuan:**
+* Berikan judul plot: *"Rata-rata Penjualan per Tipe Lokasi Outlet"*.
+* Berikan label pada sumbu X (*"Tipe Lokasi Outlet"*) dan sumbu Y (*"Rata-rata Penjualan"*).
+* Gunakan warna batang yang berbeda untuk setiap kategori lokasi.
+
+---
+
+#### **Soal 2: Scatter Plot (Hubungan Harga Barang dengan Penjualan)**
+Buatlah sebuah **Scatter Plot** untuk melihat hubungan antara harga barang (`Item_MRP`) di sumbu X dan hasil penjualan (`Item_Outlet_Sales`) di sumbu Y.
+
+**Ketentuan:**
+* Gunakan hanya **150 data pertama** saja agar plot tidak terlalu padat.
+* Gunakan marker berbentuk bulat dengan warna hijau (`'g'`).
+* Berikan judul plot: *"Hubungan Harga Barang (MRP) dengan Penjualan"*.
+* Berikan label pada sumbu X (*"Harga Barang (MRP)"*) dan sumbu Y (*"Penjualan (Sales)"*) serta aktifkan grid (`plt.grid(True)`).
